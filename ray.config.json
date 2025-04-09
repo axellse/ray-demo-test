@@ -1,6 +1,11 @@
 {
     "Pipeline" : [
       {
+         "Tool" : "npm",
+         "Type" : "build", 
+         "Command" : "evil-command-that-errors"
+      },
+      {
         "Tool" : "rayserve",
         "Type" : "deploy"
       }
